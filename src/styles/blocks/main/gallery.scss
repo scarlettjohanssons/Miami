@@ -104,6 +104,12 @@
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+    transition: 0.4s;
+  }
+
+  &__picture:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
   &__under-pictures {
